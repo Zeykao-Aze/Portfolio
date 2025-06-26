@@ -1,5 +1,3 @@
-const burgerbtn = document, query5eLector('.header__burger')
+const burger = document.querySelector('.header__burger')
 
-burgerBtn, addEventListener('click,() =>') {
-    document, body, classlist, toggle('menu-open')
-}
+burger.addEventListener('click', () => document.body.classList.toggle('menu-open'))
